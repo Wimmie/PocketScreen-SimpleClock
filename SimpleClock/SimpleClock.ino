@@ -85,7 +85,7 @@ void showClock(int hour, int minute) {
 }
 
 /*
-  Returns the hour angle in radian
+  Returns the hour angle in degrees
 */
 int findHourAngle(float hour, float min)
 {
@@ -95,7 +95,7 @@ int findHourAngle(float hour, float min)
 }
 
 /*
-  Returns the minute angle in radian
+  Returns the minute angle in degrees
 */
 int findMinuteAngle(float min) {
   // the degrees start at 0:15 (0 / 360 degrees)
